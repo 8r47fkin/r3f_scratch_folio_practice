@@ -7,11 +7,10 @@ const Hero = () => {
 				{/*  message */}
 				<div>
 					<h1 className="text-white text-7xl font-extrabold">
-						Hi, I'm <span className="text-theme">thabish</span>
+						Hello World! I'm <span className="text-theme">Bharath</span>
 					</h1>
 					<p className="hidden sm:block text-lg mt-9 text-white w-[550px]">
-						My code is so clean, my keyboard has never needed a
-						shower.
+						Exploring React three fiber
 						<br />
 						So come on in, explore a little, and let's make some
 						magic together!

@@ -11,7 +11,7 @@ import { MyLoader } from "./MyLoader";
 
 const Avatar = () => {
 	const [index, setIndex] = useState(1);
-	const avatar = useGLTF("/myavatar.glb");
+	const avatar = useGLTF("/avatarAni.glb");
 	const { actions, names } = useAnimations(avatar.animations, avatar.scene);
 	const [isClicked, setIsClicked] = useState(false);
 	useEffect(() => {
@@ -29,7 +29,7 @@ const Avatar = () => {
 				scale={2}
 				position-y={-2}
 				rotation-y={-0.5}
-				position-x={[-1]}
+				position-x={[2]}
 			/>
 
 			<Html position={[-3.7, 0.3, 0]}>
